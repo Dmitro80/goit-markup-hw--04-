@@ -421,6 +421,9 @@ address {
 .container-footer {
   display: flex;
   align-items: baseline;
+
+}
+.logo-left{
   margin-right: 120px;
 }
 .footer-logo {
@@ -466,6 +469,7 @@ address {
 .footer-soc-list {
   display: flex;
   list-style: none;
+  gap: 16px;
 }
 
 .footer-soc-link {
@@ -480,6 +484,8 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-image-link:hover,
 .footer-image-link:focus {
@@ -487,7 +493,7 @@ address {
 }
 .footer-soc-icon {
   fill: #f4f4fd;
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background-position: center center;
 }
