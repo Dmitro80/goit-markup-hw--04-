@@ -417,6 +417,11 @@ address {
   background: #2e2f42;
   padding: 100px 0 100px;
 }
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
