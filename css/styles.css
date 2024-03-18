@@ -272,7 +272,9 @@ address {
   margin-bottom: 72px;
 }
 .team-name-job {
-  padding: 32px 0;
+  padding: 32px 0 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-soc-icon {
   width: 16px;
@@ -283,7 +285,7 @@ address {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 48px;
+  padding-top: 8px;
 }
 .team-list {
   background-color: #f4f4fd;
@@ -329,7 +331,6 @@ address {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding: 32px 0 32px;
 }
 .team-list-text {
   font-weight: 400;
